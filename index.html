@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>John Doe</h1>
+      <p>Web Developer & Designer</p>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer and designer with a strong attention to detail. I specialize in creating modern, responsive websites that are both beautiful and functional.</p>
+      </section>
+      <section id="portfolio">
+        <h2>My Work</h2>
+        <ul>
+          <li>
+            <a href="project1.html">
+              <img src="project1.jpg" alt="Project 1">
+              <h3>Project 1</h3>
+              <p>Description of Project 1</p>
+            </a>
+          </li>
+          <li>
+            <a href="project2.html">
+              <img src="project2.jpg" alt="Project 2">
+              <h3>Project 2</h3>
+              <p>Description of Project 2</p>
+            </a>
+          </li>
+          <li>
+            <a href="project3.html">
+              <img src="project3.jpg" alt="Project 3">
+              <h3>Project 3</h3>
+              <p>Description of Project 3</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me with any questions or inquiries. I look forward to hearing from you!</p>
+        <ul>
+          <li><a href="mailto:john.doe@example.com">Email</a></li>
+          <li><a href="https://www.example.com/linkedin">LinkedIn</a></li>
+          <li><a href="https://www.example.com/github">GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+CSS:
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #005a9c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
